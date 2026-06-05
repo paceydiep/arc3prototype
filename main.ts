@@ -25,11 +25,9 @@ while (check1 == false || check2 == false || check3 == false || check4 == false)
     } else {
         basic.clearScreen()
         basic.pause(2000)
-        music.play(music.stringPlayable("C5 A B G A F G E ", 120), music.PlaybackMode.InBackground)
         basic.showString("Time's Up!")
     }
 }
 basic.clearScreen()
 basic.pause(2000)
-music.play(music.stringPlayable("G B A G C5 B A B ", 120), music.PlaybackMode.InBackground)
 basic.showString("Well Done!")
